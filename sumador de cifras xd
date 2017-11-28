@@ -1,0 +1,7 @@
+def suma_cifras():
+    numero=input("Dime un numero")
+    r=0
+    while r<10:
+        print r
+        r=r+1
+suma_cifras()
