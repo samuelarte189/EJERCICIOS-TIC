@@ -1,29 +1,24 @@
-/*Este program leera 10 numeros enteros y nos dira 
-el mayor*/
 #include<iostream>
-
+using namespace std;
 int main(){
-    //definicion de variables
-    int cont;
-    int numero;
-    int mayor;
+    int matriz[3][3];
+    int fila,col;
     int salir;
-    //bucle tipo for
-    mayor=0;
-    for(cont=1;cont<=10;cont++){
-          std::cout<<"dime un numero entero:";
-          std::cin>>numero;
-          if(numero>mayor){
-            mayor=numero;
-            }
-    }
-          
-    std::cout<<"el mayor es"<<mayor;
-    std::cout<<"toca cualquier tecla y dale a enter";
-    std::cin>>salir;
-    return 0;
+    int end1;
+    for(fila=0;fila<3;fila++){
+      for(col=0;col<3;col++){
+        cout<<"matriz["<<fila<<"][";
+        cout<<col<<"]";
+        cin>>matriz[fila][col];
+        
+        }
+        }
+         cout<<end1<<"Hemos acabado";
+         cin>>salir;
+         return 0;
+         }                 
     
     
     
     
-      }
+      
